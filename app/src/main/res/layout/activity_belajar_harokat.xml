@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_kuis"
+    android:id="@+id/activity_belajar_harokat"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg4"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl208172635.marbelhijaiyah.Kuis">
+    tools:context="id.sch.smktelkom_mlg.project.xirpl208172635.marbelhijaiyah.BelajarHarokat">
 
     <ImageButton
         android:id="@+id/help"
@@ -36,7 +36,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyahkuis1" />
+                android:background="@drawable/hijaiyah2" />
 
             <ImageButton
                 android:id="@+id/hijaiyah2"
@@ -45,7 +45,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyahkuis2" />
+                android:background="@drawable/hijaiyah2" />
 
             <ImageButton
                 android:id="@+id/hijaiyah3"
@@ -54,7 +54,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyahkuis3" />
+                android:background="@drawable/hijaiyah2" />
 
         </LinearLayout>
 
