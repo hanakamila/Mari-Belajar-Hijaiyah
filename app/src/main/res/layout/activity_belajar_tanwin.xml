@@ -30,31 +30,31 @@
             android:layout_height="wrap_content">
 
             <ImageButton
-                android:id="@+id/hijaiyah1"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:id="@+id/activity_tanwin_fathah"
+                android:layout_width="220dp"
+                android:layout_height="190dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyah3" />
+                android:background="@drawable/menu_tanwin_fathah" />
 
             <ImageButton
-                android:id="@+id/hijaiyah2"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:id="@+id/activity_tanwin_kasroh"
+                android:layout_width="220dp"
+                android:layout_height="190dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyah3" />
+                android:background="@drawable/menu_tanwin_kasroh" />
 
             <ImageButton
-                android:id="@+id/hijaiyah3"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:id="@+id/activity_tanwin_dhomah"
+                android:layout_width="220dp"
+                android:layout_height="190dp"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyah3" />
+                android:background="@drawable/menu_tanwin_dhomah" />
 
         </LinearLayout>
 
