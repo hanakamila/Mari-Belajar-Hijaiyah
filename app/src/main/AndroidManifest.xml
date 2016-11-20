@@ -35,6 +35,9 @@
         <activity
             android:name=".BelajarTanwin"
             android:screenOrientation="landscape" />
+        <activity android:name=".HarokatFathah" android:screenOrientation="landscape"/>
+        <activity android:name=".HarokatKasroh" android:screenOrientation="landscape"/>
+        <activity android:name=".HarokatDhomah" android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
