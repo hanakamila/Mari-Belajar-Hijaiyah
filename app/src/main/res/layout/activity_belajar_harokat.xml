@@ -30,7 +30,7 @@
             android:layout_height="wrap_content">
 
             <ImageButton
-                android:id="@+id/hijaiyah1"
+                android:id="@+id/harokat_fathah"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_centerHorizontal="true"
@@ -39,7 +39,7 @@
                 android:background="@drawable/hijaiyah2" />
 
             <ImageButton
-                android:id="@+id/hijaiyah2"
+                android:id="@+id/harokat_kasroh"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_centerHorizontal="true"
@@ -48,7 +48,7 @@
                 android:background="@drawable/hijaiyah2" />
 
             <ImageButton
-                android:id="@+id/hijaiyah3"
+                android:id="@+id/harokat_dhomah"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_centerHorizontal="true"
