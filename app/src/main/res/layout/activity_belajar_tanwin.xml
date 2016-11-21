@@ -36,7 +36,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/menu_tanwin_fathah" />
+                android:background="@drawable/hijaiyahkuis3" />
 
             <ImageButton
                 android:id="@+id/activity_tanwin_kasroh"
@@ -45,7 +45,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/menu_tanwin_kasroh" />
+                android:background="@drawable/hijaiyahkuis3" />
 
             <ImageButton
                 android:id="@+id/activity_tanwin_dhomah"
@@ -54,7 +54,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/menu_tanwin_dhomah" />
+                android:background="@drawable/hijaiyahkuis3" />
 
         </LinearLayout>
 

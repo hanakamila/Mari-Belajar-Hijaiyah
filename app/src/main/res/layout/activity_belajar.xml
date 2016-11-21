@@ -36,7 +36,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyah1" />
+                android:background="@drawable/belajar_hijaiyah" />
 
             <ImageButton
                 android:id="@+id/hijaiyah2"
@@ -45,7 +45,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyah2" />
+                android:background="@drawable/belajar_harokat" />
 
             <ImageButton
                 android:id="@+id/hijaiyah3"
@@ -54,7 +54,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="20dp"
-                android:background="@drawable/hijaiyah3" />
+                android:background="@drawable/belajar_tanwin" />
 
         </LinearLayout>
 
