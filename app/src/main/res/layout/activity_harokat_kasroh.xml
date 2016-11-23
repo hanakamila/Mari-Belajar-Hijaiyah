@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_harokat_kasroh"
     android:layout_width="match_parent"
@@ -34,34 +35,42 @@
             android:layout_height="wrap_content">
 
             <ImageButton
+                android:id="@+id/isatu"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/i1" />
             <ImageButton
+                android:id="@+id/idua"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/i2" />
             <ImageButton
+                android:id="@+id/itiga"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/i3" />
             <ImageButton
+                android:id="@+id/iempat"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/i4" />
             <ImageButton
+                android:id="@+id/ilima"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/i5" />
             <ImageButton
+                android:id="@+id/ienam"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/i6" />
             <ImageButton
+                android:id="@+id/itujuh"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/i7" />
             <ImageButton
+                android:id="@+id/idelapan"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/i8" />
@@ -172,4 +181,13 @@
         </LinearLayout>
 
     </HorizontalScrollView>
+
+    <ImageButton
+        android:id="@+id/previewKasroh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/h_scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/i1" />
 </RelativeLayout>

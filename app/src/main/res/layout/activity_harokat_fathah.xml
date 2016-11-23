@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_harokat_fathah"
     android:layout_width="match_parent"
@@ -34,34 +35,42 @@
             android:layout_height="wrap_content">
 
             <ImageButton
+                android:id="@+id/satu"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/a1" />
             <ImageButton
+                android:id="@+id/dua"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/a2" />
             <ImageButton
+                android:id="@+id/tiga"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/a3" />
             <ImageButton
+                android:id="@+id/empat"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/a4" />
             <ImageButton
+                android:id="@+id/lima"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/a5" />
             <ImageButton
+                android:id="@+id/enam"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/a6" />
             <ImageButton
+                android:id="@+id/tujuh"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/a7" />
             <ImageButton
+                android:id="@+id/delapan"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:background="@drawable/a8" />
@@ -132,6 +141,11 @@
             <ImageButton
                 android:layout_width="60dp"
                 android:layout_height="60dp"
+                android:background="@drawable/a23" />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:background="@drawable/a24" />
 
             <ImageButton
@@ -164,12 +178,15 @@
                 android:layout_height="60dp"
                 android:background="@drawable/a30" />
 
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/a31" />
-
         </LinearLayout>
 
     </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/previewFathah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/a1" />
 </RelativeLayout>
