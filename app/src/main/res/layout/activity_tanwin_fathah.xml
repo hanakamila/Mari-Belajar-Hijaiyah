@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_tanwin_fathah"
     android:layout_width="match_parent"
@@ -7,26 +8,25 @@
     android:background="@drawable/bg4"
     tools:context="id.sch.smktelkom_mlg.project.xirpl208172635.marbelhijaiyah.TanwinFathah">
 
-    <ImageButton
-        android:id="@+id/help"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/help" />
+    <ImageView
+        android:id="@+id/previewFathahtain"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_above="@+id/h_scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/an1" />
 
     <HorizontalScrollView
         android:id="@+id/h_scrollView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/help"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/help"
-        android:layout_marginBottom="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
         android:scrollbars="none">
 
         <LinearLayout
@@ -34,67 +34,186 @@
             android:layout_height="wrap_content">
 
             <ImageButton
+                android:id="@+id/an1"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
-            <ImageButton
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/hijaiyahbelajar" />
+                android:background="@drawable/can1" />
 
+            <ImageButton
+                android:id="@+id/an2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can2" />
+
+            <ImageButton
+                android:id="@+id/an3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can3" />
+
+            <ImageButton
+                android:id="@+id/an4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can4" />
+
+            <ImageButton
+                android:id="@+id/an5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can5" />
+
+            <ImageButton
+                android:id="@+id/an6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can6" />
+
+            <ImageButton
+                android:id="@+id/an7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can7" />
+
+            <ImageButton
+                android:id="@+id/an8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can8" />
+
+            <ImageButton
+                android:id="@+id/an9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can9" />
+
+            <ImageButton
+                android:id="@+id/an10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can10" />
+
+            <ImageButton
+                android:id="@+id/an11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can11" />
+
+            <ImageButton
+                android:id="@+id/an12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can12" />
+
+            <ImageButton
+                android:id="@+id/an13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can13" />
+
+            <ImageButton
+                android:id="@+id/an14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can14" />
+
+            <ImageButton
+                android:id="@+id/an15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can15" />
+
+            <ImageButton
+                android:id="@+id/an16"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can16" />
+
+            <ImageButton
+                android:id="@+id/an17"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can17" />
+
+            <ImageButton
+                android:id="@+id/an18"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can18" />
+
+            <ImageButton
+                android:id="@+id/an19"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can19" />
+
+            <ImageButton
+                android:id="@+id/an20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can20" />
+
+            <ImageButton
+                android:id="@+id/an21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can21" />
+
+            <ImageButton
+                android:id="@+id/an22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can22" />
+
+            <ImageButton
+                android:id="@+id/an23"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can23" />
+
+            <ImageButton
+                android:id="@+id/an24"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can24" />
+
+            <ImageButton
+                android:id="@+id/an25"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can25" />
+
+            <ImageButton
+                android:id="@+id/an26"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can26" />
+
+            <ImageButton
+                android:id="@+id/an27"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can27" />
+
+            <ImageButton
+                android:id="@+id/an28"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can28" />
+
+            <ImageButton
+                android:id="@+id/an29"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can29" />
+
+            <ImageButton
+                android:id="@+id/an30"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/can30" />
         </LinearLayout>
 
     </HorizontalScrollView>
+
 </RelativeLayout>

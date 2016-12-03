@@ -8,26 +8,16 @@
     android:background="@drawable/bg4"
     tools:context="id.sch.smktelkom_mlg.project.xirpl208172635.marbelhijaiyah.HarokatDhomah">
 
-    <ImageButton
-        android:id="@+id/help"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/help" />
-
     <HorizontalScrollView
         android:id="@+id/h_scrollView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/help"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/help"
-        android:layout_marginBottom="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
         android:scrollbars="none">
 
         <LinearLayout
@@ -35,169 +25,195 @@
             android:layout_height="wrap_content">
 
             <ImageButton
-                android:id="@+id/usatu"
+                android:id="@+id/u1"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u1" />
+                android:background="@drawable/cu1" />
 
             <ImageButton
-                android:id="@+id/udua"
+                android:id="@+id/u2"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u2" />
+                android:background="@drawable/cu2" />
 
             <ImageButton
-                android:id="@+id/utiga"
+                android:id="@+id/u3"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u3" />
+                android:background="@drawable/cu3" />
 
             <ImageButton
-                android:id="@+id/uempat"
+                android:id="@+id/u4"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u4" />
+                android:background="@drawable/cu4" />
 
             <ImageButton
-                android:id="@+id/ulima"
+                android:id="@+id/u5"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u5" />
+                android:background="@drawable/cu5" />
 
             <ImageButton
-                android:id="@+id/uenam"
+                android:id="@+id/u6"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u6" />
+                android:background="@drawable/cu6" />
 
             <ImageButton
-                android:id="@+id/utujuh"
+                android:id="@+id/u7"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u8" />
+                android:background="@drawable/cu7" />
 
             <ImageButton
-                android:id="@+id/udelapan"
+                android:id="@+id/u8"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u9" />
+                android:background="@drawable/cu8" />
 
             <ImageButton
+                android:id="@+id/u9"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u10" />
+                android:background="@drawable/cu9" />
 
             <ImageButton
+                android:id="@+id/u10"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u11" />
+                android:background="@drawable/cu10" />
 
             <ImageButton
+                android:id="@+id/u11"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u12" />
+                android:background="@drawable/cu11" />
 
             <ImageButton
+                android:id="@+id/u12"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u13" />
+                android:background="@drawable/cu12" />
 
             <ImageButton
+                android:id="@+id/u13"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u14" />
+                android:background="@drawable/cu13" />
 
             <ImageButton
+                android:id="@+id/u14"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u15" />
+                android:background="@drawable/cu14" />
 
             <ImageButton
+                android:id="@+id/u15"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u16" />
+                android:background="@drawable/cu15" />
 
             <ImageButton
+                android:id="@+id/u16"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u17" />
+                android:background="@drawable/cu16" />
 
             <ImageButton
+                android:id="@+id/u17"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u18" />
+                android:background="@drawable/cu17" />
 
             <ImageButton
+                android:id="@+id/u18"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u19" />
+                android:background="@drawable/cu18" />
 
             <ImageButton
+                android:id="@+id/u19"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u20" />
+                android:background="@drawable/cu19" />
 
             <ImageButton
+                android:id="@+id/u20"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u21" />
+                android:background="@drawable/cu20" />
 
             <ImageButton
+                android:id="@+id/u21"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u22" />
+                android:background="@drawable/cu21" />
 
             <ImageButton
+                android:id="@+id/u22"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u23" />
+                android:background="@drawable/cu22" />
 
             <ImageButton
+                android:id="@+id/u23"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u24" />
+                android:background="@drawable/cu23" />
 
             <ImageButton
+                android:id="@+id/u24"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u25" />
+                android:background="@drawable/cu24" />
 
             <ImageButton
+                android:id="@+id/u25"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u26" />
+                android:background="@drawable/cu25" />
 
             <ImageButton
+                android:id="@+id/u26"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u27" />
+                android:background="@drawable/cu26" />
 
             <ImageButton
+                android:id="@+id/u27"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u28" />
+                android:background="@drawable/cu27" />
 
             <ImageButton
+                android:id="@+id/u28"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u29" />
+                android:background="@drawable/cu28" />
 
             <ImageButton
+                android:id="@+id/u29"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/u30" />
+                android:background="@drawable/cu29" />
+
+            <ImageButton
+                android:id="@+id/u30"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/cu30" />
         </LinearLayout>
 
     </HorizontalScrollView>
 
     <ImageView
         android:id="@+id/previewDhommah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="134dp"
-        android:layout_marginStart="134dp"
-        android:layout_toEndOf="@+id/help"
-        android:layout_toRightOf="@+id/help"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_above="@+id/h_scrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
         app:srcCompat="@drawable/u1" />
+
 </RelativeLayout>
